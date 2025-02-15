@@ -1,0 +1,1 @@
+This repository contains an example of a potential buffer overflow bug in assembly code, along with a solution to mitigate the risk. The bug involves adding a value to a memory location without checking if there's enough space for the result. This could lead to unpredictable behavior or a program crash. The solution demonstrates how to add bounds checking to prevent the overflow.
